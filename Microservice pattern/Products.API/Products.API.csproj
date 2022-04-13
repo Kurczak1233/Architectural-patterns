@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Application\Behaviour" />
+      <Folder Include="Application\Commands" />
+      <Folder Include="Application\DomainEventHandlers" />
+      <Folder Include="Application\IntegrationEvents" />
+      <Folder Include="Application\Models" />
+      <Folder Include="Application\Queries" />
+      <Folder Include="Application\Validations" />
+      <Folder Include="Extentions" />
+      <Folder Include="Infrastructure" />
+      <Folder Include="Setup" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,8 @@
+Microservice pattern/.idea/
+Microservice pattern/Gateway.WebApi/obj
+Microservice pattern/Users.Infrastructure/obj
+Microservice pattern/Products.API/obj
+Microservice pattern/Products.Domain/obj
+Microservice pattern/Products.Infrastructure/obj
+Microservice pattern/Users.API/obj
+Microservice pattern/Users.Domain/obj
